@@ -1,0 +1,19 @@
+body{
+	background-image: url("../img/hojas.jpg");
+	background-attachment: fixed;/*se queda fija, aunq hagas scroll*/
+}
+
+#logo{
+
+	background-color: #235E3D;
+}
+
+#menu ul li:hover{
+	background-color: #235E3D;;
+
+}
+.button-more{
+	
+	background-color: #235E3D;
+
+}

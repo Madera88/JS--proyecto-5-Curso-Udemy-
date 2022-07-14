@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Proyecto Javascrit</title>
+	<!--Estilos CSS-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+		
+	<!--Cargas Jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Slider al hacerlo mediante ur necesitamos
+	https://bxslider.com/examples/image-slideshow-captions/-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+ 	 <!--mis script-->
+ 	 <!--Codigo Js-->
+ 	 <script type="text/javascript" src="js/main.js" ></script>
+
+ 	 <!-- Moment -->
+ 	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js" ></script>
+ 	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/es.min.js"></script>
+ 	  
+
+
+</head>
+<body>
+
+	<div id="selector-theme">
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+
+	</div>
+
+	<section id="global">
+		<!-- Cabecera -->
+		<header>
+
+			<div id="logo">
+				<h1>Proyecto Js</h1>
+			</div>
+
+			<div class="clearfix"></div>
+			<nav id="menu">
+				<ul >
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre Mi</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+			<nav>
+
+		</header>
+
+		<!-- Slider -->
+		<div id="slider">
+			<div class="bxslider">
+  				<div><img src="img/hojas.jpg" title="Hojas"></div>
+				  <div><img src="img/rojo.jpg" title="Hojas Rojas"></div>
+				  <div><img src="img/cielo.jpg" title="Cielo"></div>
+			</div>
+
+		<div>
+
+		<!-- Contenido -->
+		<section id="content">
+			<div id="posts">
+			<!-- Contenido cargadpo desde un Json-->
+			</div>
+			
+			<aside id="sidebar">
+				
+				<div id="about">
+					<h4> <span> ¿Quien soy?<span></h4>
+					<img src="img/caracol.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut consectetur lectus.</p>
+				</div>
+			
+				<div id="login">
+					<h4> Identificate</h4>
+					<form>
+						<div>
+							<label for="name">Nombre</label>
+							<input type="text" name="nombre" id="form_name">
+						</div>
+						<div>
+							<label for="email">Correo</label>
+							<input type="email" name="email" id="email">
+						</div>
+						<div>
+							<label for="pasword">Contraseña</label>
+							<input type="pasword" name="pasword" id="pasword">
+						</div>
+						<input type="submit" vale="Entrar">
+					</form>
+				</div>
+
+
+			</aside>
+			
+
+		</section>
+		<div class="clearfix"></div>
+	</section>
+
+	<footer>
+		Iván - Curso Udemy: Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS &copy;
+
+		<!--href="#top" -->
+		<a href="#" class="subir">Ir arriba</a>
+	</footer>
+</body>
+</html>
